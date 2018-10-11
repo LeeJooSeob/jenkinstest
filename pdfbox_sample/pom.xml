@@ -7,7 +7,7 @@
   <description>pdfbox_sample</description>
 
 	<repositories>
-	
+
 	<repository>
 			<id>mvn2</id>
 			<url>http://repo1.maven.org/maven2/</url>
@@ -21,7 +21,7 @@
 	</repositories>
 	<dependencies>
 	<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
-	
+
 	<dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
@@ -34,18 +34,18 @@
     <scope>test</scope>
  	</dependency>
 	</dependencies>
-	
-	
-	
-	<distributionManagement>
+
+
+
+	<!--  <distributionManagement>
 		<repository>
 			<id>deploy</id>
 			<name>deploy</name>
 			<url>http://127.0.0.1:8081/repository/deploy/</url>
 		</repository>
-	
-	</distributionManagement>
-	
+
+	</distributionManagement> -->
+
 
 
 <!--  <servers>
@@ -55,5 +55,5 @@
 		<password>admin123</password>
 		</server>
 	</servers>-->
-	
+
 </project>
